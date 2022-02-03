@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>commerce web </title>
     <link rel="stylesheet" href="style.css">
+    <!-- font awesome -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <!-- aos animmation library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 </head>
 <body>
@@ -33,21 +36,26 @@
 <!-- navbar section  -->
 
 <!-- hero section  -->
-<section id="hero">
+<section id="hero" >
+    <div data-aos="zoom-in">
     <h4>drip and flex</h4>
     <h2>super duper deals </h2>
     <h1>on all products </h1>
     <p>save more on coupons <br>
         <br>
          upto 60% on all goods </p>
-    <button>Shop now </button>
+        </div>
+         <div data-aos="fade-up-right">  
+             <button >Shop now </button>
+         </div>
+
 </section>
 <!-- hero section  -->
 
 <!-- info section  -->
 <section id="featured" >
 
-    <div class="info-card">
+    <div class="info-card" data-aos="zoom-in" >
         <div class="icon"><i class="fas fa-shipping-fast"></i></div>
         <div class="info">
             <h4>fast delivery</h4>
@@ -55,7 +63,7 @@
         </div>
     </div>
 
-    <div class="info-card">
+    <div class="info-card" data-aos="zoom-in">
         <div class="icon"><i class="fas fa-gifts"></i></div>
         <div class="info">
             <h4>exchange offer </h4>
@@ -63,7 +71,7 @@
         </div>
     </div>
 
-    <div class="info-card">
+    <div class="info-card" data-aos="zoom-in">
         <div class="icon"><i class="fas fa-gift"></i></div>
         <div class="info">
             <h4>best quality</h4>
@@ -71,7 +79,7 @@
         </div>
     </div>
 
-    <div class="info-card">
+    <div class="info-card" data-aos="zoom-in">
         <div class="icon"><i class="fas fa-headset"></i></div>
         <div class="info">
             <h4>help center</h4>
@@ -105,18 +113,28 @@
 
 <!-- about us -->
 <section id="about-us">
+    <div data-aos="fade-left" data-aos-easing="ease-in-back">
     <h4>Our Promise</h4>
     <h2>Ethical And Beautiful</h2>
-    <p>We are committed to quality products that are manufactured ethically and sustainably. All of our pieces are traceable throughout the supply chain. We strive to ensure our products contribute to the well-being of people and planet, and our efforts put us on track towards a brighter future. </p>
-    <a href="about.html">learn more</a>
+</div>
+    <div data-aos="zoom-in"   data-aos-easing="ease-in-back" data-aos-duration="1000">
+        <p>We are committed to quality products that are manufactured ethically and sustainably. All of our pieces are traceable throughout the supply chain. We strive to ensure our products contribute to the well-being of people and planet, and our efforts put us on track towards a brighter future. </p>
+    </div>
+    <div  data-aos="flip-down">
+        <a href="about.html">learn more</a>
+    </div>
 </section>
 <!-- about us -->
 
 <!-- cot banner  -->
 <section id="banner">
-    <h4> latest custom made </h4>
-    <h2>up to <span>70% off</span> on our new arrivals</h2>
-    <a href="#new-arrivals"> grab now </a>
+    <div  data-aos="zoom-out" data-aos-easing="ease-in-back" >
+        <h4> latest custom made </h4>
+        <h2>up to <span>70% off</span> on our new arrivals</h2>
+    </div>
+    <div  data-aos="flip-down" data-aos-easing="ease-in-back">
+    <a href="#new-arrivals"> grab now </a>  
+   </div >
 </section>
 <!-- cot banner  -->
 
@@ -160,5 +178,9 @@
 
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>

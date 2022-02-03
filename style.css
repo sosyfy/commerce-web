@@ -281,7 +281,7 @@ font-size: 30px;
 
 /* banner section  */
 #banner {
-    background: url('/img/banner/b2.jpg');
+    background: url('./img/banner/b2.jpg');
     padding: 40px 80px;
     text-align: center;
     background-color:  #F7F7F7;
@@ -306,6 +306,7 @@ color: #E3E6f3;
 padding-top: 5px;
 font-size: 30px;
 color: #d3d9f3;
+padding-bottom: 12px;
 
 }
 #banner span {
@@ -320,8 +321,8 @@ color: #d3d9f3;
     font-size: 12px;
     background-color: #E3E6f3;
     color: #1a1a1a;
-    position: absolute;
-    bottom: 40px;
+    margin-top: 40px;
+    
 }
 #banner a:hover{
     background-color: #088178 ;
