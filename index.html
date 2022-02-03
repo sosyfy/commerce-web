@@ -1,186 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>commerce web </title>
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>commerce web</title>
+    <link rel="stylesheet" href="style.css" />
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    />
     <!-- aos animmation library -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
-</head>
-<body>
+    <!-- swipper js module  -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
     <!-- navbar section -->
     <section id="header">
-        <a href="#"><img src="img/logo.png" alt="logo" class="logo"></a>
-        <div>
-            <ul id="navbar">
-                <li><a href="#" id="close"><i class="fas fa-times"></i></a></li>
-                <li><a href="index.html" class="active">home</a></li>
-                <li><a href="shop.html">shop </a></li>
-                <li><a href="about.html">about</a></li>
-                <li><a href="contact.html">contact</a></li>
-                <li><a href="cart.html"><i class="fas fa-shopping-bag" id="bag"></i></a></li>
-                <li><a href="login.html" ><i class="fas fa-user-circle" id="bag"></i></a></li>
-            </ul>
-        </div>
-        <div id="mobile">
-            <a href="login.html"><i class="fas fa-user-circle"></i></a>
-            <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
-            <i class="fas fa-outdent" id="bar"></i>
-        </div>
-    </section> 
-<!-- navbar section  -->
+      <a href="#"><img src="img/logo.png" alt="logo" class="logo" /></a>
+      <div>
+        <ul id="navbar">
+          <li>
+            <a href="#" id="close"><i class="fas fa-times"></i></a>
+          </li>
+          <li><a href="index.html" class="active">home</a></li>
+          <li><a href="shop.html">shop </a></li>
+          <li><a href="about.html">about</a></li>
+          <li><a href="contact.html">contact</a></li>
+          <li>
+            <a href="cart.html"><i class="fas fa-shopping-bag" id="bag"></i></a>
+          </li>
+          <li>
+            <a href="login.html"><i class="fas fa-user-circle" id="bag"></i></a>
+          </li>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="login.html"><i class="fas fa-user-circle"></i></a>
+        <a href="cart.html"><i class="fas fa-shopping-bag"></i></a>
+        <i class="fas fa-outdent" id="bar"></i>
+      </div>
+    </section>
+    <!-- navbar section  -->
 
-<!-- hero section  -->
-<section id="hero" >
-    <div data-aos="zoom-in">
-    <h4>drip and flex</h4>
-    <h2>super duper deals </h2>
-    <h1>on all products </h1>
-    <p>save more on coupons <br>
-        <br>
-         upto 60% on all goods </p>
-        </div>
-         <div data-aos="fade-up-right">  
-             <button >Shop now </button>
-         </div>
+    <!-- hero section  -->
+    <section id="hero">
+      <div data-aos="zoom-in">
+        <h4>drip and flex</h4>
+        <h2>super duper deals</h2>
+        <h1>on all products</h1>
+        <p>
+          save more on coupons <br />
+          <br />
+          upto 60% on all goods
+        </p>
+      </div>
+      <div data-aos="fade-up-right">
+        <button>Shop now</button>
+      </div>
+    </section>
+    <!-- hero section  -->
 
-</section>
-<!-- hero section  -->
-
-<!-- info section  -->
-<section id="featured" >
-
-    <div class="info-card" data-aos="zoom-in" >
+    <!-- info section  -->
+    <section id="featured">
+      <div class="info-card" data-aos="zoom-in">
         <div class="icon"><i class="fas fa-shipping-fast"></i></div>
         <div class="info">
-            <h4>fast delivery</h4>
-            <p>free for all type order</p>
+          <h4>fast delivery</h4>
+          <p>free for all type order</p>
         </div>
-    </div>
+      </div>
 
-    <div class="info-card" data-aos="zoom-in">
+      <div class="info-card" data-aos="zoom-in">
         <div class="icon"><i class="fas fa-gifts"></i></div>
         <div class="info">
-            <h4>exchange offer </h4>
-            <p>one day to exchange</p>
+          <h4>exchange offer</h4>
+          <p>one day to exchange</p>
         </div>
-    </div>
+      </div>
 
-    <div class="info-card" data-aos="zoom-in">
+      <div class="info-card" data-aos="zoom-in">
         <div class="icon"><i class="fas fa-gift"></i></div>
         <div class="info">
-            <h4>best quality</h4>
-            <p>best product prices</p>
+          <h4>best quality</h4>
+          <p>best product prices</p>
         </div>
-    </div>
+      </div>
 
-    <div class="info-card" data-aos="zoom-in">
+      <div class="info-card" data-aos="zoom-in">
         <div class="icon"><i class="fas fa-headset"></i></div>
         <div class="info">
-            <h4>help center</h4>
-            <p>support system 24/7</p>
+          <h4>help center</h4>
+          <p>support system 24/7</p>
         </div>
-    </div>
+      </div>
+    </section>
+    <!-- info section  -->
 
-</section>
-<!-- info section  -->
-
-<!-- featured products  -->
-<section id="featured-products">
-    <h2 class="headings">featured products </h2>
-    <h4 class="headings">latest new collection </h4>
-<div class="featured-container">
-    <div class="featured-card">
-        <img src="./img/products/f1.jpg" alt="product 1">
-        <div class="description">
-            <span>addidas</span>
-            <h5>cotton heavy product </h5>
-            <h4>$68</h4>
+    <!-- featured products  -->
+    <section id="featured-products">
+      <h2 class="headings">featured products</h2>
+      <h4 class="headings">latest new collection</h4>
+      <div class="mySwiper swiper">
+        <div class="featured-container swiper-wrapper">
+          <div class="featured-card swiper-slide">
+            <img src="./img/products/f1.jpg" alt="product 1" />
+            <div class="description">
+              <span>addidas</span>
+              <h5>cotton heavy product</h5>
+              <h4>$68</h4>
+            </div>
+            <div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+          </div>
+          <div class="featured-card swiper-slide">
+            <img src="./img/products/f2.jpg" alt="product 1" />
+            <div class="description">
+              <span>addidas</span>
+              <h5>cotton heavy product</h5>
+              <h4>$68</h4>
+            </div>
+            <div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+          </div>
+          <div class="featured-card swiper-slide">
+            <img src="./img/products/f3.jpg" alt="product 1" />
+            <div class="description">
+              <span>addidas</span>
+              <h5>cotton heavy product</h5>
+              <h4>$68</h4>
+            </div>
+            <div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+          </div>
+          <div class="featured-card swiper-slide">
+            <img src="./img/products/f4.jpg" alt="product 1" />
+            <div class="description">
+              <span>addidas</span>
+              <h5>cotton heavy product</h5>
+              <h4>$68</h4>
+            </div>
+            <div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+          </div>
+          <div class="featured-card swiper-slide">
+            <img src="./img/products/f5.jpg" alt="product 1" />
+            <div class="description">
+              <span>addidas</span>
+              <h5>cotton heavy product</h5>
+              <h4>$68</h4>
+            </div>
+            <div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+          </div>
+          <div class="featured-card swiper-slide">
+            <img src="./img/products/f6.jpg" alt="product 1" />
+            <div class="description">
+              <span>addidas</span>
+              <h5>cotton heavy product</h5>
+              <h4>$68</h4>
+            </div>
+            <div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+          </div>
+          <div class="featured-card swiper-slide">
+            <img src="./img/products/f7.jpg" alt="product 1" />
+            <div class="description">
+              <span>addidas</span>
+              <h5>cotton heavy product</h5>
+              <h4>$68</h4>
+            </div>
+            <div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+          </div>
+          <div class="featured-card swiper-slide">
+            <img src="./img/products/f8.jpg" alt="product 1" />
+            <div class="description">
+              <span>addidas</span>
+              <h5>cotton heavy product</h5>
+              <h4>$68</h4>
+            </div>
+            <div>
+              <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+          </div>
         </div>
-        <div>
-            <a href="#" ><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <!-- featured products  -->
 
-    </div>
-</div>
-</section>
-<!-- featured products  -->
-
-<!-- about us -->
-<section id="about-us">
-    <div data-aos="fade-left" data-aos-easing="ease-in-back">
-    <h4>Our Promise</h4>
-    <h2>Ethical And Beautiful</h2>
-</div>
-    <div data-aos="zoom-in"   data-aos-easing="ease-in-back" data-aos-duration="1000">
-        <p>We are committed to quality products that are manufactured ethically and sustainably. All of our pieces are traceable throughout the supply chain. We strive to ensure our products contribute to the well-being of people and planet, and our efforts put us on track towards a brighter future. </p>
-    </div>
-    <div  data-aos="flip-down">
+    <!-- about us -->
+    <section id="about-us">
+      <div data-aos="fade-left" data-aos-easing="ease-in-back">
+        <h4>Our Promise</h4>
+        <h2>Ethical And Beautiful</h2>
+      </div>
+      <div
+        data-aos="zoom-in"
+        data-aos-easing="ease-in-back"
+        data-aos-duration="1000"
+      >
+        <p>
+          We are committed to quality products that are manufactured ethically
+          and sustainably. All of our pieces are traceable throughout the supply
+          chain. We strive to ensure our products contribute to the well-being
+          of people and planet, and our efforts put us on track towards a
+          brighter future.
+        </p>
+      </div>
+      <div data-aos="flip-down">
         <a href="about.html">learn more</a>
-    </div>
-</section>
-<!-- about us -->
+      </div>
+    </section>
+    <!-- about us -->
 
-<!-- cot banner  -->
-<section id="banner">
-    <div  data-aos="zoom-out" data-aos-easing="ease-in-back" >
-        <h4> latest custom made </h4>
+    <!-- cot banner  -->
+    <section id="banner">
+      <div data-aos="zoom-out" data-aos-easing="ease-in-back">
+        <h4>latest custom made</h4>
         <h2>up to <span>70% off</span> on our new arrivals</h2>
-    </div>
-    <div  data-aos="flip-down" data-aos-easing="ease-in-back">
-    <a href="#new-arrivals"> grab now </a>  
-   </div >
-</section>
-<!-- cot banner  -->
+      </div>
+      <div data-aos="flip-down" data-aos-easing="ease-in-back">
+        <a href="#new-arrivals"> grab now </a>
+      </div>
+    </section>
+    <!-- cot banner  -->
 
-<!-- new arrivals -->
-<section id="new-arrivals">
-    <h2 class="headings">new arrivals </h2>
-    <h4 class="headings">hottest fresh collection </h4>
-<div class="featured-container">
-    <div class="featured-card">
-        <img src="./img/products/f1.jpg" alt="product 1">
-        <div class="description">
-            <span>addidas</span>
-            <h5>cotton heavy product </h5>
-            <h4>$68</h4>
+    <!-- new arrivals -->
+    <section id="featured-products">
+        <div id="new-arrivals">
+        <h2 class="headings">New Arrivals </h2>
+        <div class="mySwiper swiper">
+          <div class="featured-container swiper-wrapper">
+            <div class="featured-card swiper-slide">
+              <img src="./img/products/n1.jpg" alt="product 1" />
+              <div class="description">
+                <span>addidas</span>
+                <h5>cotton heavy product</h5>
+                <h4>$68</h4>
+              </div>
+              <div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+            </div>
+            <div class="featured-card swiper-slide">
+              <img src="./img/products/n2.jpg" alt="product 1" />
+              <div class="description">
+                <span>addidas</span>
+                <h5>cotton heavy product</h5>
+                <h4>$68</h4>
+              </div>
+              <div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+            </div>
+            <div class="featured-card swiper-slide">
+              <img src="./img/products/n3.jpg" alt="product 1" />
+              <div class="description">
+                <span>addidas</span>
+                <h5>cotton heavy product</h5>
+                <h4>$68</h4>
+              </div>
+              <div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+            </div>
+            <div class="featured-card swiper-slide">
+              <img src="./img/products/n4.jpg" alt="product 1" />
+              <div class="description">
+                <span>addidas</span>
+                <h5>cotton heavy product</h5>
+                <h4>$68</h4>
+              </div>
+              <div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+            </div>
+            <div class="featured-card swiper-slide">
+              <img src="./img/products/n5.jpg" alt="product 1" />
+              <div class="description">
+                <span>addidas</span>
+                <h5>cotton heavy product</h5>
+                <h4>$68</h4>
+              </div>
+              <div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+            </div>
+            <div class="featured-card swiper-slide">
+              <img src="./img/products/n6.jpg" alt="product 1" />
+              <div class="description">
+                <span>addidas</span>
+                <h5>cotton heavy product</h5>
+                <h4>$68</h4>
+              </div>
+              <div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+            </div>
+            <div class="featured-card swiper-slide">
+              <img src="./img/products/n7.jpg" alt="product 1" />
+              <div class="description">
+                <span>addidas</span>
+                <h5>cotton heavy product</h5>
+                <h4>$68</h4>
+              </div>
+              <div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+            </div>
+            <div class="featured-card swiper-slide">
+              <img src="./img/products/n8.jpg" alt="product 1" />
+              <div class="description">
+                <span>addidas</span>
+                <h5>cotton heavy product</h5>
+                <h4>$68</h4>
+              </div>
+              <div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
         </div>
-        <div>
-            <a href="#" ><i class="fal fa-shopping-cart cart"></i></a>
-        </div>
-
     </div>
-</div>
-</section>
-<!-- new arrivals -->
+      </section>
+    <!-- new arrivals -->
 
-<!-- news letter  -->
-<section id="newsletter">
-    <div class="newstext">
+    <!-- news letter  -->
+    <section id="newsletter">
+      <div class="newstext">
         <h4>Sign up for Newsletter</h4>
-        <p>Get E-mail updates about our latest shop and<span> Special Offers.</span></p>
-    </div>
-    <div class="newsform">
+        <p>
+          Get E-mail updates about our latest shop and<span>
+            Special Offers.</span
+          >
+        </p>
+      </div>
+      <div class="newsform">
         <form action="" method="post">
-            <input type="email" name="email" id="newsletterEmail" placeholder="your email is ">
-            <button type="submit" class="normal">Sign Up</button>
+          <input
+            type="email"
+            name="email"
+            id="newsletterEmail"
+            placeholder="your email is "
+          />
+          <button type="submit" class="normal">Sign Up</button>
         </form>
-    </div>
-</section>
-<!-- news letter  -->
+      </div>
+    </section>
+    <!-- news letter  -->
 
+    <section id="footer">
+        <div class="footer-container">
+           
+            <div class="box one">
+                <h4>Quick links </h4>
+                <a href="#home"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="#featured-products"><i class="fas fa-angle-right"></i>Featured </a>
+                <a href="#new-arrivals"><i class="fas fa-angle-right"></i>New arrival</a>
+                <a href="products"><i class="fas fa-angle-right"></i>All Products</a>
+                <a href="newsletter"><i class="fas fa-angle-right"></i>Newsletter</a>
+            </div>
 
+            <div class="box">
+                <h4>Main Links </h4>
+                <a href="index.html"><i class="fas fa-angle-right"></i>Home</a>
+                <a href="shop.html"><i class="fas fa-angle-right"></i>All Products</a>
+                <a href="about-us.html"><i class="fas fa-angle-right"></i>About Us</a>
+                <a href="contact-us.html"><i class="fas fa-angle-right"></i>Contact us</a>
+                <a href="cart.html"><i class="fas fa-angle-right"></i>My cart</a>
+            </div>
 
+            <div class="box">
+                <h4>Follow us  </h4>
+                <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                <a href="#"><i class="fab fa-pinterest"></i>Pintrest</a>
+                <a href="#"><i class="fab fa-linkedin"></i>LinkedIn</a>
+            </div>
+        </div>
 
-    <script src="script.js"></script>
+<p class="credit">created by <span>Sospeter </span> |All rights reserved</p>
+    </section>
+
+    <script src="./script.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        AOS.init();
-      </script>
-</body>
+      AOS.init();
+    </script>
+    <!-- swipper js -->
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+
+    <!-- swipper js  -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          dynamicBullets: true,
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: true,
+        },
+        breakpoints: {
+          490: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+          },
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 15,
+          },
+          768: {
+            slidesPerView: 4,
+            spaceBetween: 40,
+          },
+          1024: {
+            slidesPerView: 5,
+            spaceBetween: 50,
+          },
+        },
+    
+      });
+    </script>
+  </body>
 </html>
